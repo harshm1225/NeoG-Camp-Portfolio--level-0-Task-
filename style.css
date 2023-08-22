@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+/**  Navbar */
+.nav-container {
+  display: block;
+  background-color: #0b0b0b;
+  padding: 3rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  font-weight: bold;
+}
+
+.nav-container__text {
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+
+.nav-container__ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav-container__ul > li {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  margin-left: 1rem;
+}
+
+.nav-container__ul li:hover {
+  background-color: #5c5c5c;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/** Header Component */
+.header-container {
+  padding: 2rem;
+  padding-top: 5rem;
+}
+
+.header-container__image {
+  max-width: 80%;
+  width: 500px;
+  display: block;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.header-container__info-text {
+  text-align: center;
+  display: table;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+/** Sections  */
+.technical-skills-section,
+.projects-section,
+.blogs-section {
+  height: 10rem;
+  width: 100%;
+  padding: 1px;
+  margin-bottom: 3rem;
+}
+
+.technical-skills-section__span,
+.projects-section__span,
+.blogs-section__span {
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #5c5c5c;
+  color: #fff;
+  display: block;
+  padding: 1rem 0rem;
+  text-align: center;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.technical-skills-section__languages {
+  height: auto;
+  background-color: #cbcbcb;
+  padding: 2rem;
+}
+.technical-skills-section__languages > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.technical-skills-section__languages > ul li {
+  border: 1px solid #5c5c5c;
+  margin-left: 2rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.technical-skills-section__languages > ul li:hover {
+  background-color: #5c5c5c;
+  color: white;
+}
+.projects-section__projects,
+.blog-section__blogs {
+  /** projects */
+  background-color: #cbcbcb;
+}
+.footer-container {
+  margin-top: 5rem;
+  height: 10rem;
+  background-color: #0b0b0b;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.logo {
+  height: 3rem;
+  width: 3rem;
+  cursor: pointer;
+}
+li {
+  display: table;
+  margin: 0 auto;
+  padding: 1rem;
+}
+button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  outline: none;
+  background-color: #cbcbcb;
+  font-weight: bold;
+  border: 1px solid #5c5c5c;
+  font-size: 15px;
+}
+button:hover {
+  background-color: #5c5c5c;
+  color: white;
+}
+button:active {
+  transform: scale(0.95);
+}

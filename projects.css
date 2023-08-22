@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+.heading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  position: relative;
+}
+.back-btn {
+  position: absolute;
+  padding: 7px 14px;
+  top: 11px;
+  left: 35px;
+  font-family: "Poppins";
+  border-radius: 5px;
+  outline: none;
+  border: 0;
+  border: 1px solid #000;
+  background-color: #cbcbcb;
+}
+.back-btn:hover {
+  background-color: #5c5c5c;
+}
+.back-btn:active {
+  transform: scale(0.95);
+}
+h1 {
+  margin-bottom: 6rem;
+}
+h2 {
+  margin-bottom: 1rem;
+}
+.projects-container {
+  width: 90%;
+  background-color: #cbcbcb;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
+.project-description-text {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.button-container {
+  display: flex;
+  gap: 1rem;
+}
+.btn {
+  padding: 7px 14px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #cbcbcb;
+  border: 1px solid #5c5c5c;
+}
+button:hover {
+  background-color: #5c5c5c;
+  color: white;
+}
+button:active {
+  transform: scale(0.95);
+}
